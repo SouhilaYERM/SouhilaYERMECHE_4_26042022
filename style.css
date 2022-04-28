@@ -776,8 +776,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
-    filter:contrast(150%),
+    color: hsl(19, 85%, 75%)!important;
+    font-size: 16pt;
 }
 
 .btn-atomic-tangerine {
