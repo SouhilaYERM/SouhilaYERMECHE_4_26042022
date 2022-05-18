@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -11,6 +14,8 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    background: none;
+    border: 0px;
 }
 
 a:hover {
@@ -753,7 +758,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: hsla(44, 27%, 52%, 1);
     padding: 40px 40px 40px 40px;
 }
 
@@ -776,8 +781,9 @@ h4 {
 }
 
 .tc-white {
-    color: hsl(19, 85%, 75%)!important;
+    color: #f5ab89!important;
     font-size: 16pt;
+    filter:contrast(130%);
 }
 
 .btn-atomic-tangerine {
@@ -1042,4 +1048,47 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.center{
+    text-align: center;
+}
+.size{
+    padding : 25px 80px 25px 80px;
+    font-size: 20pt;
+}
+.mini-size{
+    font-size: 12pt;
+}
+.sweet:hover{
+    cursor: pointer;
+}
+.strong{
+    font-style: italic;
+}
+.nitalic{
+    font-style: normal;
+}
+.bold{
+    font-weight: 500;
+}
+.ajout{
+    background:none;
+}
+.pad{
+    padding: 10px;
+}
+.display{
+    display:flex; 
+    justify-content: space-between;
+}
+.dis{
+    text-decoration: none;
+    padding-left: 20px;
+}
+.deco{
+    display: flex;
+    justify-content: right;
+}
+.marg{
+    padding-bottom:20px;
 }
