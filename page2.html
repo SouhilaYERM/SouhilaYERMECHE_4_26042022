@@ -9,7 +9,6 @@
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
 	<script src="./js/jquery-2.1.0.min.js"></script>
@@ -17,6 +16,8 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
+
+	<script src="https://kit.fontawesome.com/5e5ae3f075.js" crossorigin="anonymous"></script>
 
     <title>Agence la Panthère - Contact</title>
     
@@ -28,68 +29,57 @@
 <body class="page-container">
 	<header class="bloc bgc-white l-bloc " id="bloc-0">
 		<div class="container bloc-sm">
-			<nav class="navbar row display">
+			<nav class="navbar row">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg" alt="image contenant le logo et le nom de l'entreprise la Panthère agence" height="40" /></a>
-				</div>
-				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-					<ul class="display">
-						<li class="deco">
-							<a href="index.html" class="dis">Accueil</a>
-						</li>
-						<li class="deco">
-							<a href="page2.html" class="dis">Contact</a>
-						</li>
-					</ul>
-				</div>
+				</div>	
 			</nav>
 		</div>
 	</header>
 		<!-- bloc-0 END -->
 	<main>
 		<!-- bloc-6 -->
-		<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+		<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="text-center hero-bloc-text bold center white size">
-							Parlons web design !
-						</h1>
-						<p class="text-center mg-lg white tight-width-whitespace center mini-size">
+						
+						<p class="white">
+							<strong class="size">Parlons web design!</strong> <br> <br>
 							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 						</p>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
 		<!-- bloc-6 END -->
 
 		<!-- bloc-7 -->
-		<section class="bloc bgc-white l-bloc" id="bloc-7">
+		<div class="bloc bgc-white l-bloc" id="bloc-7">
 			<div class="container bloc-lg ">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-							<div class="form-group pad">
+						<form class="display" id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+							<div class="form-group display">
 								<label>
 									Nom
 								</label>
 								<input id="name" class="form-control" required />
 							</div>
-							<div class="form-group pad">
+							<div class="form-group display">
 								<label>
 									Adresse email
 								</label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
-							<div class="form-group pad">
+							<div class="form-group display">
 								<label>
 									Comment nous avez-vous connu ?
 								</label>
 								<input class="form-control" type="email" required id="input_504" />
 							</div>
-							<div class="form-group pad">
+							<div class="form-group display">
 								<label class="pad">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
@@ -101,21 +91,17 @@
 					</div>
 				</div>
 			</div>
-		</section >
+		</div >
 	</main>
 	<!-- Footer - bloc-8 -->
-	<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-		<div class="container bloc-sm ">
-			<div class="row">
-				<div class="col-sm-12">
-					<p class="text-center white mini-size ">
-						Agence La Panthère - Agence web basée à Lyon.<br>
-					</p>
-				</div>
-			</div>
+	<footer class="bloc text-center display d-bloc" id="bloc-8">
+		<div class="col-sm-12 text-center">
+			<p class="text-center black">
+				Agence La Panthère - Agence web basée à Lyon.<br>
+			</p>
 		</div>
-		<div class="col-sm-6 marg">
-			<p class="mini-size white">
+		<div class="col-sm-6 text-center marg">
+			<p class="center black">
 				contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 			</p>
 		</div>
