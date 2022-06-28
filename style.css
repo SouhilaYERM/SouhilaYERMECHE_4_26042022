@@ -890,6 +890,10 @@ h4 {
         padding-left: 0px;
         padding-right: 0px;
     }
+    .pad {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1124,4 +1128,7 @@ h4 {
 }
 .img {
     width: 320px;
+}
+.center {
+    text-align: center;
 }
